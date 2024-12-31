@@ -1,0 +1,121 @@
+@charset "utf-8";
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* 큰 레이아웃 */
+.contanier {
+  width: 1200px;
+  height: 700px;
+  margin: 50px auto;
+  background-color: cadetblue;
+}
+/* 머릿말 헤더 */
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: darkkhaki;
+  position: relative;
+}
+/* 헤더 안 로고 */
+.header .logo_header {
+  width: 200px;
+  height: 100px;
+  float: left;
+  background-color: darkcyan;
+}
+nav{
+    float: left;
+    width: 1000px;
+    height: 100%;
+    background-color: hotpink;
+}
+/* 헤더 안 메뉴바 */
+nav ul {
+  width: 600px;
+  height: 40px;
+  background-color: rgb(236, 245, 242);
+  position: absolute;
+  top: 30px;
+  right: 20px;
+}
+nav ul li {
+  list-style: none;
+  text-align: center;
+  float: left;
+  width: calc(100% / 4);
+  /* padding: 20px 40px; */
+  line-height:40px;
+  font-weight: bold;
+  background-color: aqua;
+  border-right: 1px solid red;
+
+}
+/* 큰 메인 영역 */
+.main {
+  width: 100%;
+  height: 500px;
+  background-color: darksalmon;
+}
+/* 이미지 슬라이드 */
+.main .images {
+  width: 100%;
+  height: 300px;
+  background-color: cornsilk;
+}
+/* 설명 큰 섹션 */
+.main .descrpition {
+  width: 100%;
+  height: 200px;
+  background-color: darkseagreen;
+}
+/* 공지사항 */
+.descrpition .galley {
+  width: calc(100% / 3);
+  height: 200px;
+  background-color: aqua;
+  float: left;
+}
+/* 배너 */
+.descrpition .banner {
+  width: calc(100% / 3);
+  height: 200px;
+  background-color: rgb(50, 79, 109);
+  float: left;
+}
+/* 바로가기 */
+.descrpition .togo {
+  width: calc(100% / 3);
+  height: 200px;
+  background-color: blueviolet;
+  float: left;
+}
+/* 하단 */
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: brown;
+}
+/* 하단 안 로고 */
+.footer .logo_footer {
+  width: 200px;
+  height: 100px;
+  background-color: blueviolet;
+  float: left;
+}
+/* 하단 안 저작권 */
+.footer .copyright {
+  width: 800px;
+  height: 100px;
+  background-color: bisque;
+  float: left;
+}
+/* 하단 안 sns */
+.footer .sns {
+  width: 200px;
+  height: 100px;
+  background-color: chartreuse;
+  float: left;
+}
